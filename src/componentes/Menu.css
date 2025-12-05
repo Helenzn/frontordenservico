@@ -1,0 +1,61 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #555555, #2f2f2f);
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #f0f0f0 !important;
+  text-shadow: 1px 1px 2px #00000055;
+}
+
+.nav-link,
+.dropdown-item {
+  color: #d9d9d9 !important;
+  transition: color 0.2s ease, transform 0.1s ease;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #ffffff !important;
+  transform: scale(1.05);
+}
+
+.navbar-toggler {
+  border-color: #d9d9d9;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.dropdown-menu {
+  background-color: #3d3d3d;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #f2f2f2, #e0e0e0);
+  padding: 4rem 1rem;
+}
+
+.hero-title {
+  color: #444444;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  color: #666666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
